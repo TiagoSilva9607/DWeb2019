@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project-Record SYSTEM "file:/C:/Users/Tiago/Desktop/Mestrado%20UMinho/4%C2%BAAno/web/TP2/ProjectRecord.dtd">
+<Project-Record>
+    <Cabeçalho>
+        <key_name></key_name>
+        <title></title>
+        <subtitle></subtitle>
+        <begin_date></begin_date>
+        <end_date></end_date>
+        <supervisor>
+            <nome></nome>
+        </supervisor>
+    </Cabeçalho>
+    <Workteam>
+        <individuo></individuo>
+    </Workteam>
+    <Abstract></Abstract>
+    <Deliverables>
+        <link></link>
+    </Deliverables>
+</Project-Record>
