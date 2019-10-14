@@ -33,7 +33,7 @@
     </abstract>
     <deliverables>
         <deliverable path="pr.xml">TP4 - XML(PR)</deliverable>
-        <deliverable path="pr.xsl">TP4 - XSL(PR)</deliverable>
+        <deliverable path="Pr2.xsl">TP4 - XSL(PR)</deliverable>
         <deliverable path="pr.html">TP4 - HTML(PR)</deliverable>
         <deliverable path="arqueossitios.xsl">TP4 - XSL(Arqueossitios)</deliverable>
         <deliverable path="serv_arq.js">TP4 - Servidor(Arquossitios)</deliverable>
