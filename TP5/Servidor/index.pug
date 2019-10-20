@@ -1,0 +1,46 @@
+extends layout
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Lista de Tarefas
+            .w3-container 
+                ul.w3-ul    
+                    
+                        form.w3-container(action='/tarefa' method='POST')
+                            label.w3-teal
+                                b Tarefa
+                                
+                            input.w3-input.w3-border.w3-light-grey(type='text' name='tarefa')
+                           
+                                  
+                            label.w3-teal
+                                
+                                b Data Limite
+                            
+                            input.w3-input.w3-border.w3-light-grey(type='date' name='Dlimite') 
+                            br
+                            input.w3-btn.w3-blue-grey(type='submit' value='Envio') 
+                            
+                            
+                            
+                            
+
+                        table.w3-table-all
+                            tr
+                                br
+                                th Tarefa
+                                    
+                                th Data Limite
+                            each al in lista
+                                tr
+                                    td=al.tarefa
+                                    
+                                    td=al.Dlimite
+            footer.w3-container.w3-teal 
+                address Gestão de Tarefas: TiagoSilva-2019
+
+
+
+
+                 
