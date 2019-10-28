@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "../TP6/pr.dtd">
+<pr>
+    <metadata>
+        <keyname>MEI_WEB_TP6</keyname>
+        <title>TP6</title>
+        <supervisor  homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>27-10-2019</bdate>
+        <edate>28-10-2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>PG41100</identifier>
+            <name>Tiago Miguel da Cunha Silva</name>
+            <email>tiago.ms.023@gmail.com</email>
+            <git>https://github.com/TiagoSilva9607</git>
+        </worker>
+    </workteam>
+    
+    
+    <abstract>
+        
+            
+            <p>
+                Neste TP6 foi pedido a realização de  adicionar/remover e editar registos de música. 
+            </p>
+            <p>
+                Para realizar este trabalho utilizei a framework express.
+            </p>
+          
+        
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">TP6 - XML(PR)</deliverable>
+        <deliverable path="pr.html">TP6 - HTML(PR)</deliverable>
+        
+        
+    </deliverables>
+</pr>
