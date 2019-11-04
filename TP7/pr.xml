@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "../TP6/pr.dtd">
+<pr>
+    <metadata>
+        <keyname>MEI_WEB_TP7</keyname>
+        <title>TP7</title>
+        <supervisor  homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>3-11-2019</bdate>
+        <edate>4-11-2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>PG41100</identifier>
+            <name>Tiago Miguel da Cunha Silva</name>
+            <email>tiago.ms.023@gmail.com</email>
+            <git>https://github.com/TiagoSilva9607</git>
+        </worker>
+    </workteam>
+    
+    
+    <abstract>
+        
+            
+            <p>
+                Neste TP7 foi pedido a reliazação de dois exercicios. 
+            </p>
+            <p>
+                No primeiro exercicio tinhamos de criar 3 querys em MongoDB sobre a base de dados fornecida pelo professor.. 
+            </p>
+            <p>
+                No segundo exercicio tinhamos de criar um servidor capaz de fazer os seguintes pedidos:
+                GET/POST/PUT/DELETE.
+                Para realizar este trabalho utilizei a framework express.
+            </p>
+          
+        
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">TP7 - XML(PR)</deliverable>
+        <deliverable path="pr.html">TP7 - HTML(PR)</deliverable>
+        <deliverable path="Queries.txt">TP7 - Queries</deliverable>
+        
+        
+        
+    </deliverables>
+</pr>
