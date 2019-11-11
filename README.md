@@ -34,7 +34,7 @@ Para realizar este trabalho utilizei a framework express.
 [Models](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP7/filmes/models/filme.js)  
 **TP8**  
 Neste TP8 foi pedido a reliazação de uma API sobre os premios Nobels. 
-Na primeira parte tinhamos de fazer download da base de dados.
+Na primeira parte tinhamos de fazer download da base de dados.  
 Na segunda parte tinhamos de criar um servidor nodejs que respondesse a uma série de pedidos:  
      GET /api/premios - Devolve a lista de prémios apenas com os campos "year" e "category";  
      GET /api/premios/:id - Devolve a informação completa de um prémio;  
