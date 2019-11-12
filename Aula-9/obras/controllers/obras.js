@@ -25,15 +25,15 @@ module.exports.consultar = id => {
         .findOne({"@id": id})
         .exec()
 }
-module.exports.compositores = () => {
+module.exports.compositores = function(){
     return Obra
-        .find({},{compositor:1})
+        //.find({},{compositor:1})
         .distinct('compositor')
         .exec()
 }
 module.exports.periodos = () => {
     return Obra
-        .find({},{periodo:1})
+        //.find({},{periodo:1})
         .distinct('periodo')
         .exec()
 }

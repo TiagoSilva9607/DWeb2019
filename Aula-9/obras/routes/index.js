@@ -31,12 +31,9 @@ router.get('/', function(req, res, next) {
   .catch(erro => res.status(500).jsonp(erro))
  }
 });
-router.get('/:idObra', function(req, res) {
-  Obras.consultar(req.params.idObra)
-    .then(dados => res.jsonp(dados))
-    .catch(erro => res.status(500).jsonp(erro))
-})
+
 router.get('/compositores', function(req, res, next) {
+  
   Obras.compositores()
   .then(dados => res.jsonp(dados))
   .catch(erro => res.status(500).jsonp(erro))
@@ -46,4 +43,11 @@ router.get('/periodos', function(req, res, next) {
   .then(dados => res.jsonp(dados))
   .catch(erro => res.status(500).jsonp(erro))
 });
+
+router.get('/:idObra', function(req, res) {
+  Obras.consultar(req.params.idObra)
+    .then(dados => res.jsonp(dados))
+    .catch(erro => res.status(500).jsonp(erro))
+})
+
 module.exports = router;
