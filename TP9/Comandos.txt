@@ -1,0 +1,10 @@
+
+Usar framework express:
+npx express-generator --view=pug compositores
+
+Instalar dependencias:
+npm i 
+npm i mongoose
+
+IMPORTAR BASE DE DADOS:
+mongoimport -d compositores -c compositores --jsonArray compositores.json
