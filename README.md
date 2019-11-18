@@ -63,10 +63,12 @@ Para realizar este trabalho utilizei a framework express.
 
 [Base de Dados](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/data/compositores.json)  
 [Página HTML](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/pr.html)  
+[COMANDOS](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/Comandos.txt)  
 [App](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/compositores/app.js)  
 [Route_Compositores](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/compositores/routes/index.js)  
 [Controllers](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/compositores/controllers/compositores.js)  
 [Model](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/compositores/model/compositor.js)
+
       
 
 
