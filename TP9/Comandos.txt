@@ -7,4 +7,10 @@ npm i
 npm i mongoose
 
 IMPORTAR BASE DE DADOS:
-mongoimport -d compositores -c compositores --jsonArray compositores.json
+mongoimport -d compositores -c compositores --jsonArray compositores.json  
+
+API:  
+http://localhost:3000/compositores  
+
+Executar Servidor:  
+npm start
