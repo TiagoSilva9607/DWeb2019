@@ -50,6 +50,24 @@ Para realizar este trabalho utilizei a framework express;
 [Controllers](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP8/premios/controllers/premios.js)  
 [Model](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP8/premios/model/premios.js)
           
+**TP9**  
+Neste TP9 foi pedido a reliazação de uma API sobre os Compositores. 
+Na primeira parte tinhamos de fazer download da base de dados e converter para JSON pois estava em XML.  
+Na segunda parte tinhamos de criar um servidor nodejs que respondesse a uma série de pedidos:  
+    GET /compositores/ - Devolve a lista completa de todos compositores;  
+    GET /compositores?ano=??? - Devolve a informação completa dos compositores que tenham essa data de nascimentos ;  
+    GET /compositores?anoObito=??? - Devolve a informação completa dos compositores que tenham essa data de obito ;  
+    GET /compositores/periodo=??? - Devolve a lista de compositores que tenham o campo "periodo" com o valor "???";  
+    GET /compositores?periodo=YYY e ano=AAAA - Devolve a lista de compositores que tenham o campo "periodo" com o valor "YYY" e o campo "ano" com um valor superior a "AAAA";  
+Para realizar este trabalho utilizei a framework express.  
+
+[Base de Dados](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/data/compositores.json)  
+[Página HTML](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/pr.html)  
+[App](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/compositores/app.js)  
+[Route_Compositores](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/compositores/routes/index.js)  
+[Controllers](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/compositores/controllers/compositores.js)  
+[Model](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/compositores/model/compositor.js)
+      
 
 
 
