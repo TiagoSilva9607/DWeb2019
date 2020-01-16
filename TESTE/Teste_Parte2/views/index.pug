@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    .w3-container
+        h1 Lista de entidades
+        table.w3-table-all
+            tr
+                th sigla
+                th designacao
+            each ent in lista
+                tr(id = ent.id, onclick=(onclick="VerEntidade('"+ent.id+"')"))
+                    td=ent.sigla
+                    td=ent.designacao
+    
+
+        address
+            a(href="http://localhost:3000/") HomePage

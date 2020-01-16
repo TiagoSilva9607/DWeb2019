@@ -1,0 +1,57 @@
+extends layout
+block content
+    .w3-container
+        h1 Informação de uma Entidade
+        table.w3-table-all
+            tr
+                th Estado
+                th Sigla
+                th Sioe
+                th Designação
+                th Internacional
+            tr
+                td=lista.estado
+                td=lista.sigla
+                td=lista.designacao
+                td=lista.internacional
+    .w3-container
+        h1  Lista de Tipologias
+        table.w3-table-all
+            tr
+                th Sigla
+                th designação
+                th id
+            each data in lista2
+                tr
+                    td=data.sigla
+                    td=data.designacao
+                    td=data.id
+    .w3-container
+        h1  Os Processos que é dona
+        table.w3-table-all
+            tr
+                th Código
+                th Titulo
+            each data in lista3
+                tr
+                    td=data.codigo
+                    td=data.titulo
+                    td 
+                        a(class="button" href=("http://clav.dglab.gov.pt/classes/consultar/c"+data.codigo)) Classe
+    .w3-container
+        h1  Os Processos que é participante
+        table.w3-table-all
+            tr
+                th Tipo Par
+                th Código
+                th Titulo
+            each data in lista3
+                tr
+                    td=data.tipoPar
+                    td=data.codigo
+                    td 
+                        a(class="button" href=("http://clav.dglab.gov.pt/classes/consultar/c"+data.codigo)) Classe
+    address
+        a(href="http://localhost:3000/") HomePage
+
+        

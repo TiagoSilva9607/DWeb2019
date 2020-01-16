@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>MEI_WEB_Teste</keyname>
+        <title>TESTE</title>
+        <supervisor  homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>16-01-2020</bdate>
+        <edate>16-01-2020</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>PG41100</identifier>
+            <name>Tiago Miguel da Cunha Silva</name>
+            <email>tiago.ms.023@gmail.com</email>
+            <git>https://github.com/TiagoSilva9607</git>
+        </worker>
+    </workteam>
+    
+    
+    <abstract>
+      <p>
+                Neste Teste foi pedido a realização de  uma API de dados w na segunda parte criar uma interface para a  API de dados dada. 
+      </p>
+      <p>
+                Para realizar este trabalho utilizei a framework express.
+      </p>
+        <p>
+            A base de dados inicialmente vinha em formato XML e através de um conversor online converti para JSON
+            Após isso dei mongoimport da base de dados através do comando:
+            mongoimport -d musicas -c musicas --jsonArray arquivo-musica-digital.json
+        </p>
+      <p>
+                
+                 Na primeira parte:
+                 
+                 
+                 GET /api/obras - Devolve a lista de obras musicais apenas com os campos "id", "titulo", "tipo" e "compositor";
+                 GET /api/obras/:id - Devolve a informação completa de uma obra;
+                 GET /api/tipos - Devolve a lista de tipos, sem repetições;
+                 GET /api/obras?compositor=XXX - Devolve a lista de obras que tenham o campo "compositor" com o valor "XXX";
+                 GET /api/obras?instrumento=III - Devolve a lista de obras que tenham uma ou mais partituras para o instrumento III;
+                 GET /api/obrasQuant - Devolve uma lista de obras musicais com os seguintes campos: id, titulo, partituras (número de partituras disponíveis);
+                 
+       </p>
+       <p>
+                Na segunda parte:
+                POSTMAN:
+                
+                1-Quantas Entidades estão catalogadas?
+                R.Estão catalogadas 546 Entidades
+                
+                2-A que Tipologias pertence a Entidade "Autoridade para as Condições de Trabalho" (ent_ACT)?
+                
+                R.A entidade "Autoridade para as Condições de Trabalho" pertence ás tipologias:
+                -Administração Pública
+                -Autoridades de supervisão e fiscalização
+                
+                3-Em que processos a entidade "Autoridade Nacional de Segurança Rodoviária" (ent_ANSR) participa como Iniciador?
+                
+                R.A entidade "Autoridade Nacional de Segurança Rodoviária" participa como Iniciador em:
+                -Registo nacional de condutores
+                
+                4-De que processos é dona a entidade "Colégio Militar" (ent_CMil)?
+                R. A entidade "Colégio Militar" é dona dos seguintes processos:
+                
+                -Realização de atividades de formação e treino animal
+                
+                INTERFACE:
+                localhost:3000 : Lista de Entidades
+                Para ver a informação de cada Entidade basta clicas na linha da entidade respectiva
+                Conseguimos ver  a informação base da Entidade, a lista de tipologias de que é composta, os processos em que é dona e os processos em que é participante;
+                Todas as entidades que é dono ou participante tem um button classe que devolve toda a informaçao da classe respetiva
+                Conseguimos tambem voltar para a pagina inicial com o button HomePage no fim da página.
+       </p>
+          
+        
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">Teste - XML(PR)</deliverable>
+        <deliverable path="pr.html">Teste - HTML(PR)</deliverable>
+        
+        
+    </deliverables>
+</pr>
