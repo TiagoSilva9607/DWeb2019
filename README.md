@@ -67,7 +67,15 @@ Para realizar este trabalho utilizei a framework express.
 [App](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/compositores/app.js)  
 [Route_Compositores](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/compositores/routes/index.js)  
 [Controllers](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/compositores/controllers/compositores.js)  
-[Model](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/compositores/model/compositor.js)
+[Model](https://github.com/TiagoSilva9607/DWeb2019/blob/master/TP9/compositores/model/compositor.js)  
+  
+    
+**PROJETO**  
+Neste trabalho pretende-se desenvolver uma aplicação WEB no âmbito da Unidade Curricular de Desenvolvimento Aplicações WEB. Esta aplicação foi construída com o objetivo de servir como um banco de dados para os alunos de Engenharia Informática da Universidade do Minho.  
+Nesta aplicação podemos visualizar todas as publicações feitas pelos utilizadores devidamente registados, criar grupos, bem como partilhar ficheiros para todos os utilizadores ou utilizador em específico.  
+Neste projeto foram utilizados todos os conhecimentos adquiridos durante o semestre, bem como os utensílios disponibilizados, respetivamente NodeJs para o desenvolvimento da aplicação e MongoDB para a persistência dos dados.  
+
+
 
       
 
